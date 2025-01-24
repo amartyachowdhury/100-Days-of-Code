@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input, select {
+    padding: 8px;
+    margin-left: 20px;
+}
