@@ -8,7 +8,7 @@
     <p>Explore the projects I've built during my coding journey:</p>
     <ul>
         <li><a href="https://amartyachowdhury.github.io/100-Days-of-Code/Day%201%20-%20Band%20Name%20Generator/">Day 1 - Band Name Generator</a></li>
-        <li><a href="https://amartyachowdhury.github.io/100-Days-of-Code/Day%202%20-%20Tip%20Calculator/">Day 2 - Tip Calculator</a></li>
+        <li><a href="https://amartyachowdhury.github.io/100-Days-of-Code/Day%201%20-%20Band%20Name%20Generator/">Day 1 - Band Name Generator</a></li>
     </ul>
 </body>
 </html>
