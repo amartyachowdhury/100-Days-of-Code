@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Rock Paper Scissors</h1>
+<p class="intro">Choose your weapon. Can you beat the computer?</p>
+<div id="choices">
+  <button type="button" onclick="play(0)">Rock</button>
+  <button type="button" onclick="play(1)">Paper</button>
+  <button type="button" onclick="play(2)">Scissors</button>
+</div>
+<div class="hands">
+  <div>
+    <h2>You chose</h2>
+    <pre id="userArt"></pre>
+  </div>
+  <div>
+    <h2>Computer chose</h2>
+    <pre id="computerArt"></pre>
+  </div>
+</div>
+<p id="result"></p>
+<button id="restart" type="button" onclick="restartGame()" hidden>Play Again</button>
+<script src="script.js"></script>
+</body>
+</html>

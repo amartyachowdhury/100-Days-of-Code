@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.intro {
+    font-size: 1.1em;
+}
+
+#choices {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px 10px 5px 0;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hands {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.hands h2 {
+    font-size: 1em;
+    margin-bottom: 8px;
+}
+
+pre {
+    font-size: 0.85em;
+    line-height: 1.2;
+    margin: 0;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+#result {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#result.win {
+    color: #2e7d32;
+}
+
+#result.lose {
+    color: #c62828;
+}
+
+#result.draw {
+    color: #1565c0;
+}
