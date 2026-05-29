@@ -66,5 +66,51 @@ function generatePassword() {
     errorEl.hidden = true;
     const password = buildPassword(counts.nrLetters, counts.nrSymbols, counts.nrNumbers);
     document.getElementById("password").textContent = password;
+    resetCopyButton();
     outputEl.hidden = false;
+}
+
+function resetCopyButton() {
+    const copyBtn = document.getElementById("copyBtn");
+    copyBtn.textContent = "Copy Password";
+    copyBtn.classList.remove("copied");
+}
+
+async function copyToClipboard(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text);
+        return;
+    }
+
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.style.position = "fixed";
+    textarea.style.left = "-9999px";
+    document.body.appendChild(textarea);
+    textarea.select();
+    const copied = document.execCommand("copy");
+    document.body.removeChild(textarea);
+
+    if (!copied) {
+        throw new Error("Copy failed");
+    }
+}
+
+async function copyPassword() {
+    const password = document.getElementById("password").textContent;
+    const copyBtn = document.getElementById("copyBtn");
+
+    if (!password) {
+        return;
+    }
+
+    try {
+        await copyToClipboard(password);
+        copyBtn.textContent = "Copied!";
+        copyBtn.classList.add("copied");
+        setTimeout(resetCopyButton, 2000);
+    } catch (err) {
+        copyBtn.textContent = "Copy failed";
+        setTimeout(resetCopyButton, 2000);
+    }
 }

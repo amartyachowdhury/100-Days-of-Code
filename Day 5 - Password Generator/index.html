@@ -28,7 +28,10 @@
 <div id="output" hidden>
   <p class="label">Your password is:</p>
   <p id="password" class="password"></p>
-  <button type="button" onclick="generatePassword()">Generate Again</button>
+  <div class="output-actions">
+    <button type="button" id="copyBtn" onclick="copyPassword()">Copy Password</button>
+    <button type="button" onclick="generatePassword()">Generate Again</button>
+  </div>
 </div>
 <script src="script.js"></script>
 </body>
