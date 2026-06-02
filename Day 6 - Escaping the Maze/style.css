@@ -84,7 +84,9 @@ body {
     max-width: 420px;
 }
 
-.controls-panel h2 {
+.controls-panel h2,
+.controls-panel .section-label {
+    display: block;
     font-size: 1em;
     margin: 0 0 10px;
 }
