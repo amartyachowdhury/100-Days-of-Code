@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+.logo {
+    font-size: 0.35rem;
+    line-height: 1.1;
+    margin: 0 auto 12px;
+    display: inline-block;
+    text-align: left;
+    white-space: pre;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.intro {
+    font-size: 1.05em;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 420px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form div {
+    margin-bottom: 14px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+select,
+input[type="number"],
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 18px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: #c62828;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+#output {
+    max-width: 420px;
+    margin: 20px auto 0;
+    text-align: left;
+}
+
+.label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.result {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.1rem;
+    background-color: #fff;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    word-break: break-word;
+    margin-bottom: 12px;
+}
