@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+.logo {
+    font-size: 0.22rem;
+    line-height: 1.05;
+    margin: 0 auto 10px;
+    display: inline-block;
+    text-align: left;
+    white-space: pre;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.intro {
+    font-size: 1.05em;
+    margin-bottom: 20px;
+}
+
+.calculator {
+    max-width: 320px;
+    margin: 0 auto;
+    background-color: #2d3436;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.history {
+    color: #b2bec3;
+    font-size: 0.9rem;
+    min-height: 1.2em;
+    text-align: right;
+    margin: 0 0 8px;
+}
+
+.display {
+    background-color: #dfe6e9;
+    color: #2d3436;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: right;
+    margin: 0 0 8px;
+    min-height: 1.5em;
+    word-break: break-all;
+}
+
+.message {
+    min-height: 1.2em;
+    font-size: 0.85rem;
+    color: #74b9ff;
+    margin: 0 0 12px;
+}
+
+.message.error {
+    color: #ff7675;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+.keypad button {
+    padding: 16px 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #636e72;
+    color: white;
+}
+
+.keypad button:hover {
+    background-color: #576164;
+}
+
+.keypad button.op {
+    background-color: #0984e3;
+}
+
+.keypad button.op:hover {
+    background-color: #0770c9;
+}
+
+.keypad button.equals {
+    background-color: #00b894;
+}
+
+.keypad button.equals:hover {
+    background-color: #00a381;
+}
+
+.actions {
+    margin-top: 12px;
+}
+
+.actions button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.actions button.secondary {
+    background-color: #dfe6e9;
+    color: #2d3436;
+}
+
+.actions button.secondary:hover {
+    background-color: #b2bec3;
+}
