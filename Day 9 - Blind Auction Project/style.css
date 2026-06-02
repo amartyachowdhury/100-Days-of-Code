@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+.logo {
+    font-size: 0.45rem;
+    line-height: 1.1;
+    margin: 0 auto 12px;
+    display: inline-block;
+    text-align: left;
+    white-space: pre;
+}
+
+.intro {
+    font-size: 1.05em;
+    margin-bottom: 20px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#auction,
+#result {
+    max-width: 420px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.bid-count {
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+form div {
+    margin-bottom: 14px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 18px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 6px 6px 6px 0;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.secondary {
+    background-color: #6c757d;
+}
+
+button.secondary:hover {
+    background-color: #545b62;
+}
+
+.error {
+    color: #c62828;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.confirmation {
+    color: #2e7d32;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.winner {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #2e7d32;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.clear-screen {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}

@@ -10,3 +10,4 @@ Explore the projects I've built during my coding journey:
 - [Day 6 - Escaping the Maze](https://amartyachowdhury.github.io/100-Days-of-Code/Day%206%20-%20Escaping%20the%20Maze/)
 - [Day 7 - Hangman Game](https://amartyachowdhury.github.io/100-Days-of-Code/Day%207%20-%20Hangman%20Game/)
 - [Day 8 - Caesar Cipher](https://amartyachowdhury.github.io/100-Days-of-Code/Day%208%20-%20Caesar%20Cipher/)
+- [Day 9 - Blind Auction Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%209%20-%20Blind%20Auction%20Project/)
