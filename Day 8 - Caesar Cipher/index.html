@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<pre id="logo" class="logo" aria-hidden="true"></pre>
-<h1>Caesar Cipher</h1>
-<p class="intro">Encrypt or decrypt a message by shifting letters in the alphabet.</p>
+  <pre id="logo" class="logo" aria-hidden="true"></pre>
+  <h1>Caesar Cipher</h1>
+  <p class="intro">Encrypt or decrypt a message by shifting letters in the alphabet.</p>
 
-<form id="cipherForm" onsubmit="return false;">
-  <div>
-    <label for="direction">Direction</label>
-    <select id="direction">
-      <option value="encode">Encode</option>
-      <option value="decode">Decode</option>
-    </select>
-  </div>
-  <div>
-    <label for="message">Your message</label>
-    <textarea id="message" rows="4" placeholder="Type your message..."></textarea>
-  </div>
-  <div>
-    <label for="shift">Shift number</label>
-    <input type="number" id="shift" value="3">
-  </div>
-  <button type="button" onclick="runCipher()">Run</button>
-</form>
+  <form id="cipherForm" onsubmit="return false;">
+    <div>
+      <label for="direction">Direction</label>
+      <select id="direction">
+        <option value="encode">Encode</option>
+        <option value="decode">Decode</option>
+      </select>
+    </div>
+    <div>
+      <label for="message">Your message</label>
+      <textarea id="message" rows="4" placeholder="Type your message..."></textarea>
+    </div>
+    <div>
+      <label for="shift">Shift number</label>
+      <input type="number" id="shift" value="3">
+    </div>
+    <button type="button" onclick="runCipher()">Run</button>
+  </form>
 
-<p id="error" class="error" hidden></p>
-<div id="output" hidden>
-  <p class="label" id="resultLabel"></p>
-  <p id="result" class="result"></p>
-  <button type="button" onclick="resetForm()">Go Again</button>
-</div>
+  <p id="error" class="error" hidden></p>
+  <div id="output" hidden>
+    <p class="label" id="resultLabel"></p>
+    <p id="result" class="result"></p>
+    <button type="button" onclick="resetForm()">Go Again</button>
+  </div>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
