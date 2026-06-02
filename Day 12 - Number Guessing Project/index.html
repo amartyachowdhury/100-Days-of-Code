@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<pre id="logo" class="logo" aria-hidden="true"></pre>
+<h1>Number Guessing Game</h1>
+<p class="intro">I'm thinking of a number between 1 and 100. Can you guess it?</p>
+
+<div id="setup" class="panel">
+  <h2>Choose difficulty</h2>
+  <button type="button" onclick="startGame('easy')">Easy (10 attempts)</button>
+  <button type="button" onclick="startGame('hard')">Hard (5 attempts)</button>
+</div>
+
+<div id="game" class="panel" hidden>
+  <p id="attempts" class="attempts"></p>
+  <form id="guessForm" onsubmit="return false;">
+    <label for="guess">Make a guess</label>
+    <input type="number" id="guess" min="1" max="100" placeholder="1-100">
+    <button type="button" onclick="submitGuess()">Guess</button>
+  </form>
+  <p id="feedback" class="feedback" aria-live="polite"></p>
+</div>
+
+<div id="result" class="panel" hidden>
+  <p id="resultMessage" class="result"></p>
+  <button type="button" onclick="resetGame()">New Game</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -13,3 +13,4 @@ Explore the projects I've built during my coding journey:
 - [Day 9 - Blind Auction Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%209%20-%20Blind%20Auction%20Project/)
 - [Day 10 - Calculator Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2010%20-%20Calculator%20Project/)
 - [Day 11 - Blackjack Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2011%20-%20Blackjack%20Project/)
+- [Day 12 - Number Guessing Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2012%20-%20Number%20Guessing%20Project/)

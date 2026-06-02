@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+.logo {
+    font-size: 0.35rem;
+    line-height: 1.1;
+    margin: 0 auto 12px;
+    display: inline-block;
+    text-align: left;
+    white-space: pre;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.intro {
+    font-size: 1.05em;
+    margin-bottom: 24px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.panel {
+    max-width: 420px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.panel h2 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.panel button {
+    padding: 10px 16px;
+    margin: 6px 6px 6px 0;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.panel button:hover {
+    background-color: #0056b3;
+}
+
+.attempts {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.feedback {
+    margin-top: 16px;
+    font-weight: bold;
+    min-height: 1.2em;
+    text-align: center;
+}
+
+.feedback.error {
+    color: #c62828;
+}
+
+.result {
+    font-size: 1.15rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.result.win {
+    color: #2e7d32;
+}
+
+.result.lose {
+    color: #c62828;
+}
+
+#result button {
+    display: block;
+    margin: 0 auto;
+}
