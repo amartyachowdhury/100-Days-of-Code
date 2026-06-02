@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+.logo {
+    font-size: 0.4rem;
+    line-height: 1.15;
+    margin: 0 auto 16px;
+    display: inline-block;
+    text-align: left;
+    letter-spacing: 0;
+    white-space: pre;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.intro {
+    font-size: 1.05em;
+    margin-bottom: 20px;
+}
+
+.layout {
+    display: flex;
+    justify-content: center;
+}
+
+.game-panel {
+    max-width: 520px;
+    width: 100%;
+}
+
+.stage {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1rem;
+    line-height: 1.2;
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    text-align: left;
+}
+
+.lives {
+    font-weight: bold;
+    font-size: 0.85rem;
+    margin: 16px 0 8px;
+    letter-spacing: 0.5px;
+}
+
+.word {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2rem;
+    letter-spacing: 0.35em;
+    margin: 20px 0;
+    min-height: 2.5rem;
+}
+
+.message {
+    min-height: 1.5em;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.message.win {
+    color: #2e7d32;
+}
+
+.message.lose {
+    color: #c62828;
+}
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    margin: 20px 0;
+}
+
+.keyboard button {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    font-weight: bold;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.keyboard button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+.keyboard button:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.keyboard button.correct {
+    background-color: #2e7d32;
+}
+
+.keyboard button.wrong {
+    background-color: #6c757d;
+}
+
+#newGame {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#newGame:hover {
+    background-color: #0056b3;
+}

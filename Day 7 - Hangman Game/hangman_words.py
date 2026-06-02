@@ -1,0 +1,15 @@
+word_list = [
+    "aardvark", "baboon", "camel", "capybara", "chameleon", "cheetah", "colt",
+    "coyote", "crow", "deer", "dingo", "donkey", "dromedary", "elephant",
+    "fox", "frog", "gazelle", "giraffe", "goat", "goose", "gorilla", "grasshopper",
+    "hare", "hawk", "hedgehog", "hippopotamus", "hyena", "jackal", "jaguar",
+    "kangaroo", "koala", "lemur", "leopard", "lion", "lizard", "llama",
+    "lynx", "marmoset", "marten", "mink", "mole", "mongoose", "monkey",
+    "moose", "mouse", "mule", "newt", "ocelot", "opossum", "orangutan",
+    "oryx", "otter", "ox", "panda", "panther", "parakeet", "parrot",
+    "pig", "platypus", "polarbear", "pony", "porcupine", "porpoise", "puma",
+    "rabbit", "raccoon", "ram", "rat", "reindeer", "rhinoceros", "salamander",
+    "seal", "sheep", "skunk", "sloth", "snake", "squirrel", "stallion",
+    "tiger", "toad", "turtle", "walrus", "warthog", "weasel", "whale",
+    "wildcat", "wolf", "wolverine", "wombat", "woodchuck", "yak", "zebra",
+]
