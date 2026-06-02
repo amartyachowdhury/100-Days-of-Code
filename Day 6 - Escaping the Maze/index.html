@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escaping the Maze</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Escaping the Maze</h1>
+<p class="intro">
+  Guide the robot to the goal — like
+  <a href="https://reeborg.ca/reeborg.html?lang=en&amp;mode=python&amp;menu=worlds%2Fmenus%2Freeborg_intro_en.json&amp;name=Maze&amp;url=worlds%2Ftutorial_en%2Fmaze1.json" target="_blank" rel="noopener noreferrer">Reeborg's World Maze</a>.
+  Use <code>move()</code> and <code>turn_left()</code> to escape.
+</p>
+
+<div class="layout">
+  <div class="maze-panel">
+    <div id="maze" aria-label="Maze grid"></div>
+    <p id="status">Find your way to the goal!</p>
+  </div>
+
+  <div class="controls-panel">
+    <h2>Controls</h2>
+    <div class="buttons">
+      <button type="button" onclick="move()">move()</button>
+      <button type="button" onclick="turnLeft()">turn_left()</button>
+      <button type="button" onclick="turnRight()">turn_right()</button>
+      <button type="button" class="secondary" onclick="resetMaze()">Reset</button>
+    </div>
+
+    <h2>Your code</h2>
+    <textarea id="code" rows="10" spellcheck="false">while not at_goal():
+    if right_is_clear():
+        turn_right()
+        move()
+    elif front_is_clear():
+        move()
+    else:
+        turn_left()</textarea>
+    <div class="code-actions">
+      <button type="button" onclick="runSolution()">Run Solution</button>
+      <button type="button" class="secondary" onclick="runCodeLines()">Run Lines (step)</button>
+    </div>
+    <p class="hint">Run Solution uses the wall-follower algorithm. Run Lines executes simple commands like <code>move()</code> one line at a time.</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

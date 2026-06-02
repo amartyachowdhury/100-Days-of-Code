@@ -7,3 +7,4 @@ Explore the projects I've built during my coding journey:
 - [Day 3 - Treasure Island Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%203%20-%20Treasure%20Island%20Project/)
 - [Day 4 - Rock Paper Scissors](https://amartyachowdhury.github.io/100-Days-of-Code/Day%204%20-%20Rock%20Paper%20Scissors/)
 - [Day 5 - Password Generator](https://amartyachowdhury.github.io/100-Days-of-Code/Day%205%20-%20Password%20Generator/)
+- [Day 6 - Escaping the Maze](https://amartyachowdhury.github.io/100-Days-of-Code/Day%206%20-%20Escaping%20the%20Maze/)

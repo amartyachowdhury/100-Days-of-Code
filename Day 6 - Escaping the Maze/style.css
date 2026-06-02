@@ -1,0 +1,151 @@
+:root {
+    --cell-size: 48px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.intro {
+    font-size: 1.05em;
+    max-width: 720px;
+}
+
+.intro a {
+    color: #007BFF;
+}
+
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+.maze-panel {
+    flex: 0 0 auto;
+}
+
+#maze {
+    display: grid;
+    gap: 2px;
+    background-color: #5d4037;
+    padding: 4px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.cell {
+    width: var(--cell-size);
+    height: var(--cell-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 1.25rem;
+}
+
+.cell.wall {
+    background-color: #4e342e;
+}
+
+.cell.path {
+    background-color: #c8e6c9;
+}
+
+.cell.goal {
+    background-color: #fff9c4;
+}
+
+.robot {
+    font-size: 1.5rem;
+    line-height: 1;
+    transition: transform 0.2s ease;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+}
+
+#status {
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+#status.win {
+    color: #2e7d32;
+}
+
+.controls-panel {
+    flex: 1;
+    min-width: 280px;
+    max-width: 420px;
+}
+
+.controls-panel h2 {
+    font-size: 1em;
+    margin: 0 0 10px;
+}
+
+.buttons,
+.code-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.secondary {
+    background-color: #6c757d;
+    font-family: Arial, sans-serif;
+}
+
+button.secondary:hover {
+    background-color: #545b62;
+}
+
+#code {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.9rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.hint {
+    font-size: 0.85em;
+    color: #555;
+    margin-top: 10px;
+}
+
+code {
+    background-color: #e9ecef;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+    :root {
+        --cell-size: 36px;
+    }
+}
