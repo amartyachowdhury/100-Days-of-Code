@@ -12,3 +12,4 @@ Explore the projects I've built during my coding journey:
 - [Day 8 - Caesar Cipher](https://amartyachowdhury.github.io/100-Days-of-Code/Day%208%20-%20Caesar%20Cipher/)
 - [Day 9 - Blind Auction Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%209%20-%20Blind%20Auction%20Project/)
 - [Day 10 - Calculator Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2010%20-%20Calculator%20Project/)
+- [Day 11 - Blackjack Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2011%20-%20Blackjack%20Project/)
