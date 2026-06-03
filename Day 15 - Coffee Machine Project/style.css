@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #3e2723;
+    color: #fff;
+    text-align: center;
+}
+
+.intro {
+    font-size: 1.05em;
+    margin-bottom: 24px;
+    color: #d7ccc8;
+}
+
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.report-panel,
+.main-panel {
+    background-color: #4e342e;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.report-panel {
+    flex: 0 1 220px;
+}
+
+.report-panel h2,
+.main-panel h2 {
+    margin-top: 0;
+    font-size: 1.1rem;
+}
+
+.report-panel p {
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+.main-panel {
+    flex: 1 1 360px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.menu button {
+    padding: 16px 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #6d4c41;
+    color: #fff;
+    border: 2px solid #8d6e63;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.menu button span {
+    display: block;
+    margin-top: 6px;
+    font-size: 0.9rem;
+    color: #ffcc80;
+}
+
+.menu button:hover {
+    background-color: #795548;
+}
+
+.payment {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.coins {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.coins label {
+    display: block;
+    font-size: 0.9rem;
+}
+
+.coins input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 4px;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+}
+
+button {
+    padding: 10px 16px;
+    margin: 4px 6px 4px 0;
+    background-color: #ff9800;
+    color: #3e2723;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #fb8c00;
+}
+
+button.secondary {
+    background-color: #8d6e63;
+    color: #fff;
+}
+
+button.secondary:hover {
+    background-color: #a1887f;
+}
+
+button.danger {
+    background-color: #c62828;
+    color: #fff;
+    margin-top: 12px;
+}
+
+button.danger:hover {
+    background-color: #b71c1c;
+}
+
+.message {
+    min-height: 1.4em;
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+.message.success {
+    color: #a5d6a7;
+}
+
+.message.error {
+    color: #ef9a9a;
+}
+
+.off-screen {
+    max-width: 420px;
+    margin: 40px auto;
+    padding: 32px;
+    background-color: #4e342e;
+    border-radius: 12px;
+}
+
+.off-screen h2 {
+    margin-top: 0;
+}

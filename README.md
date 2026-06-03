@@ -15,3 +15,4 @@ Explore the projects I've built during my coding journey:
 - [Day 11 - Blackjack Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2011%20-%20Blackjack%20Project/)
 - [Day 12 - Number Guessing Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2012%20-%20Number%20Guessing%20Project/)
 - [Day 14 - Higher or Lower Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2014%20-%20Higher%20or%20Lower%20Project/)
+- [Day 15 - Coffee Machine Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2015%20-%20Coffee%20Machine%20Project/)

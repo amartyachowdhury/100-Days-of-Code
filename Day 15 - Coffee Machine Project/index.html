@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Machine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>☕ Coffee Machine</h1>
+<p class="intro">Choose a drink, insert coins, and collect your coffee.</p>
+
+<div id="machine" class="layout">
+  <aside class="report-panel">
+    <h2>Machine Report</h2>
+    <p id="reportWater">Water: 300ml</p>
+    <p id="reportMilk">Milk: 200ml</p>
+    <p id="reportCoffee">Coffee: 100g</p>
+    <p id="reportMoney">Money: $0.00</p>
+    <button type="button" class="secondary" onclick="showReport()">Refresh Report</button>
+  </aside>
+
+  <main class="main-panel">
+    <h2>Menu</h2>
+    <div class="menu">
+      <button type="button" onclick="selectDrink('espresso')">
+        Espresso<br><span>$1.50</span>
+      </button>
+      <button type="button" onclick="selectDrink('latte')">
+        Latte<br><span>$2.50</span>
+      </button>
+      <button type="button" onclick="selectDrink('cappuccino')">
+        Cappuccino<br><span>$3.00</span>
+      </button>
+    </div>
+
+    <div id="payment" class="payment" hidden>
+      <h2 id="paymentTitle">Insert Coins</h2>
+      <div class="coins">
+        <label>Quarters ($0.25)
+          <input type="number" id="quarters" min="0" value="0">
+        </label>
+        <label>Dimes ($0.10)
+          <input type="number" id="dimes" min="0" value="0">
+        </label>
+        <label>Nickels ($0.05)
+          <input type="number" id="nickels" min="0" value="0">
+        </label>
+        <label>Pennies ($0.01)
+          <input type="number" id="pennies" min="0" value="0">
+        </label>
+      </div>
+      <button type="button" onclick="processPayment()">Pay</button>
+      <button type="button" class="secondary" onclick="cancelPayment()">Cancel</button>
+    </div>
+
+    <p id="message" class="message" aria-live="polite"></p>
+
+    <button type="button" class="danger" onclick="turnOff()">Turn Off Machine</button>
+  </main>
+</div>
+
+<div id="offScreen" class="off-screen" hidden>
+  <h2>Machine is off</h2>
+  <button type="button" onclick="turnOn()">Turn On Machine</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
