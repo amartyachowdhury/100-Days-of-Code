@@ -17,3 +17,4 @@ Explore the projects I've built during my coding journey:
 - [Day 14 - Higher or Lower Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2014%20-%20Higher%20or%20Lower%20Project/)
 - [Day 15 to 16 - Coffee Machine Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2015%20to%2016%20-%20Coffee%20Machine%20Project/)
 - [Day 17 - Quiz Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2017%20-%20Quiz%20Project/)
+- [Day 18 - The Hirst Painting Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2018%20-%20The%20Hirst%20Painting%20Project/)
