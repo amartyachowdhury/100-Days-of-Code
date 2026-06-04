@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #1a237e;
+    color: #fff;
+    text-align: center;
+}
+
+.intro {
+    font-size: 1.05em;
+    margin-bottom: 24px;
+    color: #c5cae9;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.panel {
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: #283593;
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.progress {
+    font-size: 0.95rem;
+    color: #9fa8da;
+    margin-bottom: 8px;
+}
+
+.score {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.question {
+    font-size: 1.15rem;
+    line-height: 1.5;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    min-height: 4em;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.choices button {
+    padding: 14px 36px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.choices button:first-child {
+    background-color: #43a047;
+    color: white;
+}
+
+.choices button:first-child:hover {
+    background-color: #388e3c;
+}
+
+.choices button:last-child {
+    background-color: #e53935;
+    color: white;
+}
+
+.choices button:last-child:hover {
+    background-color: #c62828;
+}
+
+.feedback {
+    min-height: 2.5em;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.feedback.correct {
+    color: #a5d6a7;
+}
+
+.feedback.wrong {
+    color: #ef9a9a;
+}
+
+#result h2 {
+    margin-top: 0;
+}
+
+.final-score {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#result button {
+    padding: 12px 24px;
+    background-color: #ffca28;
+    color: #1a237e;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#result button:hover {
+    background-color: #ffb300;
+}
