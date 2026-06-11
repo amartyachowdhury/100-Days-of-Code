@@ -1,6 +1,19 @@
 # Welcome to My 100 Days of Code Challenge
 
-Explore the projects I've built during my coding journey:
+Explore the projects I've built during my coding journey. Each day includes a web version (linked below, hosted on GitHub Pages) and, for most projects, a Python CLI version you can run locally.
+
+## Running the Python projects
+
+From a project folder, run the main script — for example:
+
+```bash
+cd "Day 17 - Quiz Project"
+python main.py
+```
+
+Some earlier days use a named entry file instead (e.g. `python bandNameGenerator.py` in Day 1).
+
+## Projects
 
 - [Day 1 - Band Name Generator](https://amartyachowdhury.github.io/100-Days-of-Code/Day%201%20-%20Band%20Name%20Generator/)
 - [Day 2 - Tip Calculator](https://amartyachowdhury.github.io/100-Days-of-Code/Day%202%20-%20Tip%20Calculator/)
@@ -14,6 +27,7 @@ Explore the projects I've built during my coding journey:
 - [Day 10 - Calculator Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2010%20-%20Calculator%20Project/)
 - [Day 11 - Blackjack Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2011%20-%20Blackjack%20Project/)
 - [Day 12 - Number Guessing Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2012%20-%20Number%20Guessing%20Project/)
+- Day 13 — Debugging (no standalone project in this repo)
 - [Day 14 - Higher or Lower Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2014%20-%20Higher%20or%20Lower%20Project/)
 - [Day 15 to 16 - Coffee Machine Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2015%20to%2016%20-%20Coffee%20Machine%20Project/)
 - [Day 17 - Quiz Project](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2017%20-%20Quiz%20Project/)
