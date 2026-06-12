@@ -22,3 +22,4 @@ Explore the projects I've built during my coding journey. Each day includes a we
 - [Day 18 - Hirst Painting](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2018%20-%20Hirst%20Painting/)
 - [Day 19 to 21 - Snake Game](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2019%20to%2021%20-%20Snake%20Game/)
 - [Day 22 - Ping Pong](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2022%20-%20Ping%20Pong/)
+- [Day 23 - Turtle Crossing](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2023%20-%20Turtle%20Crossing/)

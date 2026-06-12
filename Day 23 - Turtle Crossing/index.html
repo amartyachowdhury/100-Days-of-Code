@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turtle Crossing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Turtle Crossing</h1>
+<p class="intro">
+  Guide the turtle across the road. Use ↑ or W to move up, dodge the cars, and reach the top to level up.
+</p>
+
+<div class="panel">
+  <p id="level" class="level">Level: 1</p>
+  <canvas id="canvas" width="600" height="600" aria-label="Turtle crossing game board"></canvas>
+
+  <div id="gameOver" class="game-over" hidden>
+    <p>Game Over</p>
+    <button type="button" onclick="startGame()">Play Again</button>
+  </div>
+
+  <button type="button" class="move-up" onclick="movePlayerUp()">Move Up ↑</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
