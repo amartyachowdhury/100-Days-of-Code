@@ -25,3 +25,4 @@ Explore the projects I've built during my coding journey. Each day includes a we
 - [Day 23 - Turtle Crossing](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2023%20-%20Turtle%20Crossing/)
 - [Day 24 - Mail Merge](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2024%20-%20Mail%20Merge/)
 - [Day 25 - U.S. States Game](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2025%20-%20U.S.%20States%20Game/)
+- [Day 26 - NATO Alphabet](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2026%20-%20NATO%20Alphabet/)

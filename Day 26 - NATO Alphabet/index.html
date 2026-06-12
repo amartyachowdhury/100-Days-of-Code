@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NATO Alphabet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>NATO Phonetic Alphabet</h1>
+<p class="intro">
+  Enter a word to convert each letter into its NATO phonetic code word.
+</p>
+
+<div class="panel">
+  <form id="encodeForm" class="encode-form">
+    <label for="wordInput">Word</label>
+    <div class="input-row">
+      <input type="text" id="wordInput" placeholder="Enter a word..." autocomplete="off">
+      <button type="submit">Convert</button>
+    </div>
+  </form>
+
+  <p id="error" class="error" hidden></p>
+
+  <section class="output-section">
+    <h2>Phonetic Codes</h2>
+    <p id="output" class="output">Enter a word to see the result.</p>
+  </section>
+
+  <section class="reference-section">
+    <h2>Alphabet Reference</h2>
+    <div id="alphabetGrid" class="alphabet-grid"></div>
+  </section>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
