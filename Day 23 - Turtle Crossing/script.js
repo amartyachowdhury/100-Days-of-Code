@@ -78,7 +78,7 @@ function collidesWithCar(car) {
 function endGame() {
   clearInterval(gameLoopId);
   gameLoopId = null;
-  gameOverElement.hidden = false;
+  gameOverElement.classList.add("is-visible");
 }
 
 function checkCollisions() {
@@ -145,7 +145,7 @@ function startGame() {
   carSpeed = 5;
   cars = [];
   resetPlayer();
-  gameOverElement.hidden = true;
+  gameOverElement.classList.remove("is-visible");
   updateLevel();
   drawBoard();
   gameLoopId = setInterval(tick, TICK_MS);
