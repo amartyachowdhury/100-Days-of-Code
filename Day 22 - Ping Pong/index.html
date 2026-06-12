@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ping Pong</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Ping Pong</h1>
+<p class="intro">
+  Left player: W / S. Right player: ↑ / ↓. First to rally wins the point when the other player misses.
+</p>
+
+<div class="panel">
+  <div class="scoreboard">
+    <span id="leftScore">0</span>
+    <span class="divider">:</span>
+    <span id="rightScore">0</span>
+  </div>
+
+  <canvas id="canvas" width="800" height="600" aria-label="Ping pong game board"></canvas>
+
+  <div class="controls">
+    <div class="player-controls">
+      <p>Left player</p>
+      <button type="button" onclick="movePaddle('left', -1)">W ↑</button>
+      <button type="button" onclick="movePaddle('left', 1)">S ↓</button>
+    </div>
+    <div class="player-controls">
+      <p>Right player</p>
+      <button type="button" onclick="movePaddle('right', -1)">↑ Up</button>
+      <button type="button" onclick="movePaddle('right', 1)">↓ Down</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
