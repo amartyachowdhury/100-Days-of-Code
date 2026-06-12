@@ -26,6 +26,11 @@ class CarManager:
     def move_cars(self):
         for car in self.all_cars:
             car.backward(self.car_speed)
+
+        for car in self.all_cars:
+            if car.xcor() <= -320:
+                car.hideturtle()
+
         self.all_cars = [car for car in self.all_cars if car.xcor() > -320]
 
     def level_up(self):

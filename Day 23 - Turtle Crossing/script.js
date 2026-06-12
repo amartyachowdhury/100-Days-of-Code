@@ -81,12 +81,35 @@ function endGame() {
   gameOverElement.hidden = false;
 }
 
+function checkCollisions() {
+  if (cars.some(collidesWithCar)) {
+    endGame();
+    return false;
+  }
+  return true;
+}
+
+function checkLevelComplete() {
+  if (player.y <= FINISH_Y) {
+    level += 1;
+    carSpeed += SPEED_INCREMENT;
+    updateLevel();
+    resetPlayer();
+  }
+}
+
 function movePlayerUp() {
   if (!gameLoopId) {
     return;
   }
 
-  player.y -= MOVE_DISTANCE;
+  player.y = Math.max(FINISH_Y, player.y - MOVE_DISTANCE);
+
+  if (!checkCollisions()) {
+    return;
+  }
+
+  checkLevelComplete();
   drawBoard();
 }
 
@@ -98,18 +121,11 @@ function tick() {
   });
   cars = cars.filter((car) => car.x > -CAR_WIDTH);
 
-  if (cars.some(collidesWithCar)) {
-    endGame();
+  if (!checkCollisions()) {
     return;
   }
 
-  if (player.y <= FINISH_Y) {
-    level += 1;
-    carSpeed += SPEED_INCREMENT;
-    updateLevel();
-    resetPlayer();
-  }
-
+  checkLevelComplete();
   drawBoard();
 }
 

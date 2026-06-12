@@ -9,6 +9,7 @@ from turtle import Screen
 def main():
     screen = Screen()
     screen.setup(width=600, height=600)
+    screen.bgcolor("#2b2b2b")
     screen.tracer(0)
 
     player = Player()
@@ -30,8 +31,9 @@ def main():
             if car.distance(player) < 20:
                 game_is_on = False
                 scoreboard.game_over()
+                break
 
-        if player.is_at_finish_line():
+        if game_is_on and player.is_at_finish_line():
             player.go_to_start()
             car_manager.level_up()
             scoreboard.increase_level()
