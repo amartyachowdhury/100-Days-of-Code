@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mail Merge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Mail Merge</h1>
+<p class="intro">
+  Select a guest to preview their personalised invitation letter. The <code>[name]</code> placeholder is replaced automatically.
+</p>
+
+<div class="panel">
+  <section class="section">
+    <h2>Letter Template</h2>
+    <pre id="template" class="letter-box"></pre>
+  </section>
+
+  <section class="section">
+    <h2>Guests</h2>
+    <div id="nameList" class="name-list"></div>
+
+    <div class="custom-name">
+      <label for="customName">Custom name</label>
+      <div class="custom-name-row">
+        <input type="text" id="customName" placeholder="Enter a name...">
+        <button type="button" onclick="previewCustomName()">Preview</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Generated Letter</h2>
+    <p id="fileName" class="file-name"></p>
+    <pre id="output" class="letter-box output"></pre>
+    <button type="button" onclick="generateAll()">Generate All Letters</button>
+  </section>
+
+  <section id="allLetters" class="section" hidden>
+    <h2>All Generated Letters</h2>
+    <div id="allLettersList" class="all-letters"></div>
+  </section>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
