@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #141414;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+.intro {
+    font-size: 1.05em;
+    margin-bottom: 24px;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ccc;
+}
+
+.panel {
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.score {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.feedback {
+    min-height: 1.5rem;
+    margin: 0 0 16px;
+    color: #ccc;
+}
+
+.feedback.success {
+    color: #06d6a0;
+}
+
+.feedback.error {
+    color: #ff6b81;
+}
+
+.guess-form {
+    margin-bottom: 20px;
+}
+
+.guess-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ccc;
+}
+
+.guess-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+input[type="text"] {
+    flex: 1 1 240px;
+    max-width: 360px;
+    padding: 10px 12px;
+    border: 1px solid #444;
+    border-radius: 6px;
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+button {
+    font-size: 1rem;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e94560;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6b81;
+}
+
+button.secondary {
+    background-color: #444;
+}
+
+button.secondary:hover {
+    background-color: #666;
+}
+
+.map-wrapper {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.map-wrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.labels {
+    position: absolute;
+    inset: 0;
+}
+
+.state-label {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 0.62rem;
+    font-weight: bold;
+    color: #111;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.missing-panel,
+.complete-panel {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #1f1f1f;
+}
+
+.missing-list {
+    margin: 0 0 16px;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+code {
+    color: #ffd166;
+}

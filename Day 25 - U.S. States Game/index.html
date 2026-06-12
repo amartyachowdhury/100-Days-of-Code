@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>U.S. States Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>U.S. States Game</h1>
+<p class="intro">
+  Name as many U.S. states as you can. Correct answers appear on the map. Type <code>Exit</code> to see the states you missed.
+</p>
+
+<div class="panel">
+  <p id="score" class="score">0 / 50 States Correct</p>
+  <p id="feedback" class="feedback" aria-live="polite"></p>
+
+  <form id="guessForm" class="guess-form">
+    <label for="stateInput">State name</label>
+    <div class="guess-row">
+      <input type="text" id="stateInput" placeholder="Enter a state..." autocomplete="off">
+      <button type="submit">Submit</button>
+      <button type="button" class="secondary" onclick="showMissingStates()">Exit</button>
+    </div>
+  </form>
+
+  <div class="map-wrapper">
+    <img src="blank_states_img.gif" width="725" height="491" alt="Blank map of the United States">
+    <div id="labels" class="labels"></div>
+  </div>
+
+  <div id="missingPanel" class="missing-panel" hidden>
+    <h2>States to Learn</h2>
+    <p id="missingList" class="missing-list"></p>
+    <button type="button" onclick="startGame()">Play Again</button>
+  </div>
+
+  <div id="completePanel" class="complete-panel" hidden>
+    <h2>You got all 50 states!</h2>
+    <button type="button" onclick="startGame()">Play Again</button>
+  </div>
+</div>
+
+<script src="states.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
