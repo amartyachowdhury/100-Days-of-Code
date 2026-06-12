@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Pomodoro Timer</h1>
+<p class="intro">
+  Stay focused with 25-minute work sessions, 5-minute short breaks, and 20-minute long breaks.
+</p>
+
+<div class="panel">
+  <p id="sessionLabel" class="session-label">Work Session</p>
+  <p id="timer" class="timer">25:00</p>
+  <p id="pomodoroCount" class="pomodoro-count">Pomodoros completed: 0</p>
+  <p id="status" class="status" aria-live="polite"></p>
+
+  <div class="mode-buttons">
+    <button type="button" class="mode active" data-mode="work" onclick="selectMode('work')">Work</button>
+    <button type="button" class="mode" data-mode="short" onclick="selectMode('short')">Short Break</button>
+    <button type="button" class="mode" data-mode="long" onclick="selectMode('long')">Long Break</button>
+  </div>
+
+  <div class="controls">
+    <button type="button" id="startButton" onclick="toggleTimer()">Start</button>
+    <button type="button" class="secondary" onclick="resetTimer()">Reset</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

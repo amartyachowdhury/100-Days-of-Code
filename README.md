@@ -27,3 +27,4 @@ Explore the projects I've built during my coding journey. Each day includes a we
 - [Day 25 - U.S. States Game](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2025%20-%20U.S.%20States%20Game/)
 - [Day 26 - NATO Alphabet](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2026%20-%20NATO%20Alphabet/)
 - [Day 27 - Miles to Kilometers Converter](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2027%20-%20Miles%20to%20Kilometers%20Converter/)
+- [Day 28 - Pomodoro Timer](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2028%20-%20Pomodoro%20Timer/)
