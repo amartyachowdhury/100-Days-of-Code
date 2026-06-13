@@ -30,3 +30,4 @@ Explore the projects I've built during my coding journey. Each day includes a we
 - [Day 28 - Pomodoro Timer](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2028%20-%20Pomodoro%20Timer/)
 - [Day 29 - Password Manager](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2029%20-%20Password%20Manager/)
 - [Day 30 - Improved Password Manager](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2030%20-%20Improved%20Password%20Manager/)
+- [Day 31 - Flash Card App](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2031%20-%20Flash%20Card%20App/)

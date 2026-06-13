@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flash Card App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Flash Card App</h1>
+<p class="intro">
+  Learn French words. The card flips after 3 seconds. Mark words you know with ✓ or keep studying with ✗.
+</p>
+
+<div class="panel">
+  <p id="progress" class="progress">Words left: 0</p>
+
+  <div class="card-area">
+    <div id="card" class="card">
+      <img src="images/card_front.png" alt="" class="card-bg" id="cardBg">
+      <p id="cardTitle" class="card-title">French</p>
+      <p id="cardWord" class="card-word"></p>
+    </div>
+  </div>
+
+  <div class="actions">
+    <button type="button" class="icon-button" onclick="nextCard()" aria-label="Still learning">
+      <img src="images/wrong.png" alt="Still learning">
+    </button>
+    <button type="button" class="icon-button" onclick="markKnown()" aria-label="Mark as known">
+      <img src="images/right.png" alt="Mark as known">
+    </button>
+  </div>
+
+  <p id="status" class="status" aria-live="polite"></p>
+  <button type="button" class="reset-button" onclick="resetDeck()">Reset Deck</button>
+</div>
+
+<script src="words.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
