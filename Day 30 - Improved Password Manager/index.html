@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Improved Password Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Improved Password Manager</h1>
+<p class="intro">
+  Save credentials as JSON, search by website, and update existing entries. Data is stored in your browser for this demo.
+</p>
+
+<div class="panel">
+  <img src="logo.png" alt="Password Manager logo" class="logo">
+
+  <form id="managerForm" class="manager-form">
+    <div class="field website-field">
+      <label for="website">Website</label>
+      <div class="website-row">
+        <input type="text" id="website" placeholder="example.com" autocomplete="off">
+        <button type="button" class="secondary" onclick="searchPassword()">Search</button>
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="email">Email / Username</label>
+      <input type="text" id="email" value="angela@gmail.com" autocomplete="off">
+    </div>
+
+    <div class="field password-field">
+      <label for="password">Password</label>
+      <div class="password-row">
+        <input type="text" id="password" placeholder="Generate or enter a password" autocomplete="off">
+        <button type="button" class="secondary" onclick="generatePassword()">Generate</button>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button type="submit">Add / Update</button>
+      <button type="button" class="secondary" onclick="copyPassword()">Copy Password</button>
+    </div>
+  </form>
+
+  <p id="status" class="status" aria-live="polite"></p>
+
+  <section class="saved-section">
+    <h2>Saved Passwords</h2>
+    <div id="savedList" class="saved-list">
+      <p class="empty">No saved passwords yet.</p>
+    </div>
+  </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #141414;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+.intro {
+    font-size: 1.05em;
+    margin-bottom: 24px;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ccc;
+}
+
+.panel {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 24px;
+    border-radius: 12px;
+    background-color: #1f1f1f;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    text-align: left;
+}
+
+.logo {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 20px;
+}
+
+.manager-form {
+    display: grid;
+    gap: 16px;
+}
+
+.field label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ccc;
+}
+
+input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    border: 1px solid #444;
+    border-radius: 6px;
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+.website-row,
+.password-row,
+.actions,
+.saved-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.website-row input,
+.password-row input {
+    flex: 1 1 220px;
+}
+
+button {
+    font-size: 1rem;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e94560;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6b81;
+}
+
+button.secondary {
+    background-color: #444;
+}
+
+button.secondary:hover {
+    background-color: #666;
+}
+
+button.danger {
+    background-color: #7a1f2b;
+}
+
+button.danger:hover {
+    background-color: #a02838;
+}
+
+.status {
+    min-height: 1.5rem;
+    margin: 16px 0 0;
+    color: #ccc;
+}
+
+.status.success {
+    color: #06d6a0;
+}
+
+.status.error {
+    color: #ff6b81;
+}
+
+.saved-section {
+    margin-top: 28px;
+}
+
+.saved-section h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.saved-list {
+    display: grid;
+    gap: 12px;
+}
+
+.empty {
+    margin: 0;
+    color: #888;
+}
+
+.saved-card {
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #2b2b2b;
+}
+
+.saved-card h3 {
+    margin: 0 0 8px;
+}
+
+.saved-card p {
+    margin: 0 0 6px;
+    color: #ccc;
+}
+
+.saved-password {
+    font-family: "Courier New", Courier, monospace;
+    word-break: break-all;
+}
