@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #141414;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+.intro {
+    font-size: 1.05em;
+    margin-bottom: 24px;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ccc;
+}
+
+.panel {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.today-date {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+.birthday-status {
+    margin: 0 0 20px;
+    color: #ccc;
+}
+
+.birthday-status.highlight {
+    color: #06d6a0;
+    font-weight: bold;
+}
+
+.section {
+    margin-bottom: 24px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #1f1f1f;
+}
+
+.section h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.birthday-list {
+    display: grid;
+    gap: 12px;
+}
+
+.birthday-card {
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #2b2b2b;
+}
+
+.birthday-card.today {
+    border: 2px solid #06d6a0;
+}
+
+.birthday-card h3 {
+    margin: 0 0 8px;
+}
+
+.birthday-card p {
+    margin: 0 0 6px;
+    color: #ccc;
+}
+
+.birthday-date {
+    font-size: 0.95rem;
+}
+
+.email-meta {
+    margin: 0 0 12px;
+    color: #aaa;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.email-preview {
+    margin: 0 0 16px;
+    padding: 16px;
+    border-radius: 6px;
+    background-color: #2b2b2b;
+    color: #f5f5f5;
+    white-space: pre-wrap;
+    font-family: "Courier New", Courier, monospace;
+    line-height: 1.5;
+    min-height: 160px;
+}
+
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    font-size: 1rem;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e94560;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6b81;
+}
+
+button.secondary {
+    background-color: #444;
+}
+
+button.secondary:hover {
+    background-color: #666;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automated Birthday Wish</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Automated Birthday Wish</h1>
+<p class="intro">
+  Check who has a birthday today and preview the email that would be sent automatically.
+</p>
+
+<div class="panel">
+  <p id="todayDate" class="today-date"></p>
+  <p id="birthdayStatus" class="birthday-status"></p>
+
+  <section class="section">
+    <h2>Birthday List</h2>
+    <div id="birthdayList" class="birthday-list"></div>
+  </section>
+
+  <section class="section">
+    <h2>Email Preview</h2>
+    <p id="emailMeta" class="email-meta"></p>
+    <pre id="emailPreview" class="email-preview">Select a person or run today's check to preview an email.</pre>
+    <div class="actions">
+      <button type="button" onclick="checkToday()">Check Today</button>
+      <button type="button" class="secondary" onclick="previewRandomTemplate()">New Template</button>
+    </div>
+  </section>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
