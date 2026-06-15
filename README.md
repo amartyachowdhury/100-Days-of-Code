@@ -18,7 +18,7 @@ Explore the projects I've built during my coding journey. Each day includes a we
 - [Day 12 - Number Guessing](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2012%20-%20Number%20Guessing/)
 - [Day 14 - Higher or Lower](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2014%20-%20Higher%20or%20Lower/)
 - [Day 15 to 16 - Coffee Machine](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2015%20to%2016%20-%20Coffee%20Machine/)
-- [Day 17 - Quiz](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2017%20-%20Quiz/)
+- [Day 17 - Quiz App](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2017%20-%20Quiz%20App/)
 - [Day 18 - Hirst Painting](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2018%20-%20Hirst%20Painting/)
 - [Day 19 to 21 - Snake Game](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2019%20to%2021%20-%20Snake%20Game/)
 - [Day 22 - Ping Pong](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2022%20-%20Ping%20Pong/)
