@@ -36,3 +36,4 @@ Explore the projects I've built during my coding journey. Each day includes a we
 - [Day 34 - Quiz App with GUI](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2034%20-%20Quiz%20App%20with%20GUI/)
 - [Day 35 - Rain Alert](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2035%20-%20Rain%20Alert/)
 - [Day 36 - Stock Trading News Alert](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2036%20-%20Stock%20Trading%20News%20Alert/)
+- [Day 37 - Habit Tracker](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2037%20-%20Habit%20Tracker/)
