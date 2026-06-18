@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stock Trading News Alert</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Stock Trading News Alert</h1>
+<p class="intro">
+  Check whether a stock moved by at least 5% between the last two trading days. If it did, the top three news headlines would be sent as SMS alerts.
+</p>
+
+<div class="panel">
+  <form id="stockForm" class="stock-form">
+    <div class="field">
+      <label for="stockSymbol">Stock Symbol</label>
+      <input type="text" id="stockSymbol" value="TSLA" maxlength="10">
+    </div>
+    <div class="field">
+      <label for="companyName">Company Name</label>
+      <input type="text" id="companyName" value="Tesla Inc">
+    </div>
+    <div class="field">
+      <label for="stockApiKey">Alpha Vantage API Key</label>
+      <input type="password" id="stockApiKey" placeholder="Enter your stock API key">
+    </div>
+    <div class="field">
+      <label for="newsApiKey">News API Key</label>
+      <input type="password" id="newsApiKey" placeholder="Enter your news API key">
+    </div>
+    <button type="submit">Check Stock</button>
+  </form>
+
+  <p id="status" class="status" aria-live="polite">Enter stock details and API keys, then check the latest movement.</p>
+
+  <section id="results" class="results" hidden>
+    <div class="result-card">
+      <h2>Closing Prices</h2>
+      <p id="priceSummary"></p>
+    </div>
+    <div class="result-card">
+      <h2>Price Change</h2>
+      <p id="changeSummary"></p>
+    </div>
+    <div class="result-card">
+      <h2>Alert Status</h2>
+      <p id="alertStatus"></p>
+    </div>
+    <div id="articlesSection" class="result-card" hidden>
+      <h2>Top Headlines</h2>
+      <ul id="articleList" class="article-list"></ul>
+    </div>
+    <div id="smsPreview" class="sms-preview" hidden>
+      <h2>SMS Preview</h2>
+      <div id="smsMessages" class="sms-messages"></div>
+    </div>
+  </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
