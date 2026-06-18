@@ -1,6 +1,7 @@
 .DS_Store
 Thumbs.db
 .idea/
+.vscode/
 *.iml
 .ipynb_checkpoints/
 __pycache__/
@@ -10,3 +11,6 @@ __pycache__/
 .env
 *.env
 *.log
+.venv/
+venv/
+words_to_learn.csv
