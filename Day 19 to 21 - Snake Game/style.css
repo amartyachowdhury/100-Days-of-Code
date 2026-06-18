@@ -38,13 +38,17 @@ canvas {
 .game-over {
     position: absolute;
     inset: 56px 0 120px;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 16px;
     background: rgba(0, 0, 0, 0.72);
     border-radius: 8px;
+}
+
+.game-over.is-visible {
+    display: flex;
 }
 
 .game-over p {

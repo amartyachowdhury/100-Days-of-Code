@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rain Alert</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Rain Alert</h1>
+<p class="intro">
+  Check the next 12 hours of weather for your location. If any forecast slot has rain, snow, or thunderstorm conditions, an SMS alert would be sent.
+</p>
+
+<div class="panel">
+  <form id="forecastForm" class="forecast-form">
+    <div class="field">
+      <label for="latitude">Latitude</label>
+      <input type="number" id="latitude" step="any" value="46.947975">
+    </div>
+    <div class="field">
+      <label for="longitude">Longitude</label>
+      <input type="number" id="longitude" step="any" value="7.447447">
+    </div>
+    <div class="field">
+      <label for="apiKey">OpenWeatherMap API Key</label>
+      <input type="password" id="apiKey" placeholder="Enter your API key">
+    </div>
+    <button type="submit">Check Forecast</button>
+  </form>
+
+  <p id="status" class="status" aria-live="polite">Enter your location and API key, then check the forecast.</p>
+
+  <section id="results" class="results" hidden>
+    <div class="result-card">
+      <h2>Location</h2>
+      <p id="locationSummary"></p>
+    </div>
+    <div class="result-card">
+      <h2>Next 12 Hours</h2>
+      <ul id="forecastList" class="forecast-list"></ul>
+    </div>
+    <div class="result-card">
+      <h2>Alert Status</h2>
+      <p id="alertStatus"></p>
+    </div>
+    <div id="notification" class="notification" hidden>
+      <p>It's going to rain today. Remember to bring an ☔️</p>
+    </div>
+  </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

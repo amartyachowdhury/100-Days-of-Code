@@ -58,7 +58,7 @@ function updateScore() {
 function endGame() {
   clearInterval(gameLoopId);
   gameLoopId = null;
-  gameOverElement.hidden = false;
+  gameOverElement.classList.add("is-visible");
 }
 
 function tick() {
@@ -137,7 +137,7 @@ function startGame() {
   pendingDirection = { x: 1, y: 0 };
   food = randomFoodPosition();
   score = 0;
-  gameOverElement.hidden = true;
+  gameOverElement.classList.remove("is-visible");
   updateScore();
   drawBoard();
   gameLoopId = setInterval(tick, TICK_MS);
